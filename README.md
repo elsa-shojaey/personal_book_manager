@@ -10,6 +10,13 @@ A simple book manager built with python
 - save books
 - load seved books
 - admin mode
+- set book priority
+
+## Book Priority
+each book can have one of these priority levels:
+- low
+- medium
+- high
 
 ## Requirments
 - Python
@@ -35,7 +42,7 @@ BOOK_MANAGER_ADMIN_PASSWORD=admin_password_here
 
 replace `admin_password_here` with yuor own admin password
 
-## run the program
+## Run the Program
 run the main file:
 ```bash
 python main.py
@@ -45,7 +52,7 @@ python main.py
 ![personal_book_manager_screenshot](images\screenshot.png)
 
 ## Demo
-![personal_book_manager_demo](images\demo.gif)
+![personal_book_manager_demo](images\Animation.gif)
 
 ## Project Structure
 
