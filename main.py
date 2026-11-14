@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 name = input("enter your name: ")
-print("welcome", name)
+print("welcome back", name)
 admin_mode = input("do you want to enter admin mode (yes/no)? ")
 if admin_mode == "yes":
     admin_password = input("enter admin password: ")
