@@ -18,7 +18,8 @@ for i in range(count):
     priority = input("enter priority(low/medium/high): ").lower()
     book = {
         "book_name": book_name,
-        "priority": priority
+        "priority": priority,
+        "count": count
     }
 
     books.append(book)
