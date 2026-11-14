@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/python-3.12-blue)
 
-A simple book manager built with python
+A simple book manager built with Python for learning Git and GitHub 
 
 # Features
 - add multiple books
