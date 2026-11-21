@@ -6,13 +6,13 @@ name = input("enter your name: ")
 
 print("welcome back", name)
 
-admin_mode = input("do you want to enter admin mode (yes/no)? ")
+admin_mode = input("Would you like to enter Admin Mode? (yes/no)? ")
 if admin_mode == "yes":
     admin_password = input("enter admin password: ")
     if admin_password == os.getenv("BOOK_MANAGER_ADMIN_PASSWORD"):
-        print("amin mode activated")
+        print("Amin Mode activated successfully!")
     else:
-        print("wrong password")
+        print("Incorrect password. Please try again.")
 books = load_books()
 count = int(input("how many do you want to add book? : "))
 for i in range(count):
