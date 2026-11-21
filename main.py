@@ -28,3 +28,4 @@ for i in range(count):
 show_books(books)
 print("total book:", len(books))
 save_books(books)
+print("book added successfully")
