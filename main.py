@@ -26,4 +26,6 @@ for i in range(count):
 
     books.append(book)
 show_books(books)
+print("total book:", len(books))
 save_books(books)
+print(book, "Python Basics added successfully")
