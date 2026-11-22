@@ -12,7 +12,7 @@ if admin_mode == "yes":
     if admin_password == os.getenv("BOOK_MANAGER_ADMIN_PASSWORD"):
         print("Amin Mode activated successfully!")
     else:
-        print("Incorrect password. Please try again.")
+        print("Incorrect password. Access denied.")
 books = load_books()
 count = int(input("how many do you want to add book? : "))
 for i in range(count):
